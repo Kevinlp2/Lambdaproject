@@ -13,7 +13,6 @@ public class Test {
     public static void main(String[] args) {
 
         System.out.println(doSomething1( () -> "当参数返回" ));
-
         System.out.println(doSomething2().get());
     }
 }
